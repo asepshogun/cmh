@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    background: rgb(255, 102, 102);
+    ;
+}
+
+.main-container .image-container {
+    flex: 1;
+    background: rgb(240, 2, 2);
+    height: 100%;
+
+}
+.image-container h1 {
+    flex: 1;
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 10px;
+}
